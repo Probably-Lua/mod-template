@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build Lua Mod",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "bash ./build.sh",
+            "cwd": "${workspaceFolder}",
+            "windows": {
+                "command": "build.bat"
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+---@diagnostic disable: missing-fields
+---@meta _
+
+---Named RGB colors from the game's RenderHandler.ColorPalette.
+---Values are strings, so custom "#RRGGBB" colors are also accepted.
+---@class ProbablyLuaColors
+---
+--- **Default and grayscale**
+---@field None "none"
+---@field White "#C4C4B0"
+---@field VeryLightGray "#A8BECF"
+---@field LightGray "#8397BB"
+---@field Gray "#88948A"
+---@field DarkGray "#4F5390"
+---@field VeryDarkGray "#413D78"
+---@field Black "#230F47"
+---
+--- **Purple**
+---@field LightPurple "#B082A5"
+---@field Purple "#9D5C9D"
+---@field DarkPurple "#80497B"
+---
+--- **Red and orange**
+---@field VeryLightRed "#C3A9AE"
+---@field LightRed "#C07D7D"
+---@field Red "#BE514C"
+---@field DarkRed "#904453"
+---@field VeryDarkRed "#63375A"
+---@field LightOrange "#B8855A"
+---@field Orange "#AD6107"
+---@field DarkOrange "#884C31"
+---
+--- **Yellow and green**
+---@field LightYellow "#93964A"
+---@field Yellow "#877400"
+---@field DarkYellow "#635D21"
+---@field VeryLightGreen "#A0B994"
+---@field LightGreen "#7A9D4A"
+---@field Green "#548100"
+---@field DarkGreen "#4A6421"
+---@field VeryDarkGreen "#404741"
+---
+--- **Turquoise and cyan**
+---@field LightTurquoise "#42A28B"
+---@field Turquoise "#008952"
+---@field DarkTurquoise "#126961"
+---@field VeryLightCyan "#84BCC4"
+---@field LightCyan "#42A2AA"
+---@field Cyan "#008990"
+---@field DarkCyan "#126980"
+---@field VeryDarkCyan "#244970"
+---
+--- **Blue and special**
+---@field LightBlue "#429CBD"
+---@field Blue "#007CB7"
+---@field DarkBlue "#126293"
+---@field EGreen "#84BA51"
+---@field ERed "#9B4A3D"
+
+---@type ProbablyLuaColors
+Color = {}

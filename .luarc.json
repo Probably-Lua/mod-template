@@ -1,0 +1,23 @@
+{
+    "runtime.version": "Lua 5.2",
+    "runtime.builtin": {
+        "basic": "disable",
+        "coroutine": "disable",
+        "debug": "disable",
+        "io": "disable",
+        "os": "disable",
+        "package": "disable",
+        "utf8": "disable",
+        "ffi": "disable",
+        "jit": "disable",
+        "bit": "disable",
+        "bit32": "enable"
+    },
+    "workspace.library": [
+        "stubs"
+    ],
+    "diagnostics.severity": {
+        "undefined-global": "Error"
+    },
+    "workspace.checkThirdParty": false
+}

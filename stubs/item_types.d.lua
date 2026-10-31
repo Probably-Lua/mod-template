@@ -1,0 +1,81 @@
+---@diagnostic disable: missing-fields
+---@meta _
+
+---Current game types; custom type names can also be passed as strings.
+---@class ProbablyLuaItemTypes
+---
+--- **General categories**
+---@field FOOD "FOOD"
+---@field MEDICAL "MEDICAL"
+---@field MATERIAL "MATERIAL"
+---@field HOUSEHOLD_GOOD "HOUSEHOLD_GOOD"
+---@field SUBSTANCE "SUBSTANCE"
+---@field WEAPON "WEAPON"
+---@field SUPPLY_CRATE "SUPPLY_CRATE"
+---@field TOOL "TOOL"
+---@field MEDICAL_TOOL "MEDICAL_TOOL"
+---@field DOCUMENT "DOCUMENT"
+---@field ACCESS_CARD "ACCESS_CARD"
+---@field STORAGE "STORAGE"
+---
+--- **Legality, quality, and rarity**
+---@field NOT_FOR_RESALE "NOT_FOR_RESALE"
+---@field CONTRABAND "CONTRABAND"
+---@field RESTRICTED_1 "RESTRICTED_1"
+---@field RESTRICTED_2 "RESTRICTED_2"
+---@field RESTRICTED_3 "RESTRICTED_3"
+---@field MAKESHIFT "MAKESHIFT"
+---@field LOWTECH "LOWTECH"
+---@field MIDLINE "MIDLINE"
+---@field HIGHEND "HIGHEND"
+---@field RARE "RARE"
+---@field LUXURY_ITEM "LUXURY_ITEM"
+---@field ART "ART"
+---
+--- **Food, agriculture, and chemistry**
+---@field WATER "WATER"
+---@field WATER_RATION "WATER_RATION"
+---@field FARMING_SUPPLIES "FARMING_SUPPLIES"
+---@field CHEMICAL_SUPPLIES "CHEMICAL_SUPPLIES"
+---@field FRESH_FOOD "FRESH_FOOD"
+---@field PROCESSED_FOOD "PROCESSED_FOOD"
+---@field TREAT "TREAT"
+---@field BREVAGE "BREVAGE"
+---@field SEED "SEED"
+---@field MODIFIED_SEED "MODIFIED_SEED"
+---@field NARCOTIC "NARCOTIC"
+---@field POISON "POISON"
+---@field ALCOHOL "ALCOHOL"
+---
+--- **Materials and utilities**
+---@field BASIC_MATERIAL "BASIC_MATERIAL"
+---@field REFINED_MATERIAL "REFINED_MATERIAL"
+---@field ENERGY_CELL "ENERGY_CELL"
+---@field WATER_PURIFICATION_SUPPLY "WATER_PURIFICATION_SUPPLY"
+---@field OXYGEN_SUPPLY "OXYGEN_SUPPLY"
+---
+--- **Weapons, ammunition, and equipment**
+---@field MELEE_WEAPON "MELEE_WEAPON"
+---@field FIREARM "FIREARM"
+---@field MODDABLE "MODDABLE"
+---@field AMMUNITION "AMMUNITION"
+---@field MUNITION "MUNITION"
+---@field GUN_MOD "GUN_MOD"
+---@field ARMOR "ARMOR"
+---
+--- **Modules and machines**
+---@field MODULE "MODULE"
+---@field NODE "NODE"
+---@field HYDROPONIC_MODULE "HYDROPONIC_MODULE"
+---@field ALARM_MODULE "ALARM_MODULE"
+---@field PRINTER_MODULE "PRINTER_MODULE"
+---@field EVAPORATOR_MODULE "EVAPORATOR_MODULE"
+---@field MACHINE "MACHINE"
+---@field ORGAN "ORGAN"
+---@field FILTER "FILTER"
+---
+--- **Other**
+---@field LOTTERY "LOTTERY"
+---@field JUNK "JUNK"
+---@type ProbablyLuaItemTypes
+ItemType = {}

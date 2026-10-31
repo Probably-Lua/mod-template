@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+    <ID>probably_lua_example</ID>
+
+    <Name>ProbablyLua Example</Name>
+
+    <Author>YourName</Author>
+
+    <ModVersion>0.0.0</ModVersion>
+
+    <Description>Example Lua mod for Probably Stolen.</Description>
+
+    <GameVersions>
+        <Version>0.46D</Version>
+    </GameVersions>
+
+    <Prerequisites>
+        <Mod>probably_lua</Mod>
+    </Prerequisites>
+
+    <Assemblies>
+        <Assembly>StubLuaModDLL.dll</Assembly>
+    </Assemblies>
+
+    <Capabilities />
+</Manifest>

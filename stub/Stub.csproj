@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <AssemblyName>StubLuaModDLL</AssemblyName>
+        <GameManagedDir Condition="'$(GameManagedDir)' == ''">$(MSBuildProjectDirectory)/../../Probably Stolen_Data/Managed</GameManagedDir>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(GameManagedDir)/Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <Target Name="CheckGameAssembly" BeforeTargets="ResolveReferences">
+        <Error Condition="!Exists('$(GameManagedDir)/Assembly-CSharp.dll')" Text="Missing Assembly-CSharp.dll. Pass -p:GameManagedDir=... or run build.sh with the game's directory." />
+    </Target>
+</Project>

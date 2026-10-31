@@ -1,1 +1,1 @@
-# mod-template
+# ProbablyLua mod template

@@ -1,0 +1,90 @@
+---@diagnostic disable: missing-fields
+---@meta _
+
+---Nil preserves a native default; "" silences the slot.
+---Local IDs address Sounds/. Use base:<id> for a native sound.
+---@class LuaItemSounds
+---@field drag_start string?
+---@field drag_end string?
+---@field container_open string?
+---@field container_close string?
+---@field select string?
+---@field examine_open string?
+---@field toggle string?
+---@field activate string?
+---@field use string?
+
+---@class ProbablyLuaSoundPresets
+---
+--- **Consumables and packaging**
+---@field Pill "pill"
+---@field Injector "injector"
+---@field PillBottle "pill_bottle"
+---@field Edible "edible"
+---@field Food "food"
+---@field Drinkable "drinkable"
+---@field Packaged "packaged"
+---@field PlasticBottle "plastic_bottle"
+---@field CannedFood "canned_food"
+---@field AluminumCan "aluminum_can"
+---
+--- **Containers and documents**
+---@field Backpack "backpack"
+---@field Case "case"
+---@field Pouch "pouch"
+---@field Door "door"
+---@field Dossier "dossier"
+---@field Bandage "bandage"
+---@field Book "book"
+---@field CartonBox "carton_box"
+---@field CartonCard "carton_card"
+---@field PaperSheet "paper_sheet"
+---@field PlasticCard "plastic_card"
+---@field PlasticContainer "plastic_container"
+---@field PlasticVial "plastic_vial"
+---@field Glass "glass"
+---@field GlassVial "glass_vial"
+---
+--- **Weapons and combat equipment**
+---@field Rat "rat"
+---@field BluntWeapon "blunt_weapon"
+---@field SharpWeapon "sharp_weapon"
+---@field Shotgun "shotgun"
+---@field SMG "smg"
+---@field UMP "ump"
+---@field Pistol "pistol"
+---@field Armour "armour"
+---@field Grenade "grenade"
+---@field Equipment "equipment"
+---@field Blade "blade"
+---@field SmallGun "small_gun"
+---@field Gun "gun"
+---@field HeavyGun "heavy_gun"
+---@field GunMod "gun_mod"
+---
+--- **Machinery and components**
+---@field Battery "battery"
+---@field MetalMachine "metal_machine"
+---@field Module "module"
+---@field Scanner "scanner"
+---@field SolidMetal "solid_metal"
+---@field SmallMachine "small_machine"
+---@field SmallModule "small_module"
+---@field Cassette "cassette"
+---@field PlasticMachinery "plastic_machinery"
+---@field WaterFilter "water_filter"
+---
+--- **Small parts and materials**
+---@field Tiny "tiny"
+---@field TinyMetal "tiny_metal"
+---@field Leafy "leafy"
+---@field Produce "produce"
+---@field Meaty "meaty"
+---@field SoftPlastic "soft_plastic"
+---@field ScrapMetal "scrap_metal"
+---@field EmptyPlasticBottle "empty_plastic_bottle"
+---@field FullPlasticBottle "full_plastic_bottle"
+---@field Textile "textile"
+---@field Trashcan "trashcan"
+---@type ProbablyLuaSoundPresets
+SoundPreset = {}

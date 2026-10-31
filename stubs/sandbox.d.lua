@@ -42,11 +42,6 @@ function ipairs(t) end
 ---@return any, any
 function next(t, index) end
 
----@param operation? string
----@param arg? integer
----@return integer
-function collectgarbage(operation, arg) end
-
 ---@type table
 _G = {}
 

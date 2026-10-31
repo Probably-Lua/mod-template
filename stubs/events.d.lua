@@ -7,7 +7,7 @@
 ---| 'generate_customers'
 ---| 'customer_trade'
 ---| 'loot_ready' 
----Callbacks have an instruction budget. Returning/yielding a coroutine is unsupported.
+---Callbacks run synchronously and cannot yield.
 ---@param event ProbablyLuaEvent
 ---@param callback function
 ---@overload fun(event: "game_loaded", callback: fun())

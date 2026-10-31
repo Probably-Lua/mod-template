@@ -11,6 +11,6 @@
 ---Available only inside the `generate_customers` event.
 ---@class LuaCustomerPool
 local Pool = {}
----Add a customer to this event. At most 32 additions per event.
+---Add a registered customer to the current generation event.
 ---@param id string Local customer ID.
 function Pool:add(id) end

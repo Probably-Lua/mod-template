@@ -5,6 +5,7 @@
 ---Weights are relative (not percentages); positive values must be <= 1e9.
 ---Initialization edits are staged until commit, but a failing commit is not transactional.
 ---The game does not serialize these edits into saves; scripts reapply them each session.
+---There is no fixed entry-count limit per call or per-mod edit-operation quota.
 ---@class ProbablyLuaLoot
 local Loot = {}
 -- Registration and editing ----------------------------------------------------

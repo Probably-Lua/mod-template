@@ -53,7 +53,8 @@ _MOONSHARP = {}
 
 ---Initialize another source file inside this mod's lua/ directory.
 ---Only regular .lua files are accepted; links and escaping paths are rejected.
----Unavailable after initialization. Load once, then keep returned functions.
+---Available only during initialization; keep returned functions for later use.
+---No fixed file-size or dofile-call count limit; initialization still has a 10-second time budget.
 ---@param path string Relative to lua/.
 ---@return any
 function dofile(path) end
